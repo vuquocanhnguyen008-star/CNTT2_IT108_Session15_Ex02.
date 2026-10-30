@@ -1,0 +1,9 @@
+##Bài 2 : Ngăn chặn rò rỉ dữ liệu do chia sẻ sai quyền
+### Phần 1 (Phân tích): Tại sao hành động của An vi phạm "Quy tắc Cờ Đỏ Bảo mật"?
+* Việc dùng chế độ "Anyone with the link" làm đường link chứa danh sách SĐT khách hàng bị lộ ra ngoài và trôi nổi trên mạng xã hội.
+* Giao quyền Editor cho cộng tác viên bên ngoài khiến kẻ xấu lợi dụng truy cập và xóa sạch dữ liệu khách hàng.
+
+### Phần 2 (Sửa lỗi): Thiết lập lại cấu trúc phân quyền chuẩn cho An
+* **(1) Mức quyền cho cộng tác viên:** Chỉ cấp quyền **Viewer** (chỉ xem) hoặc **Commenter** (nhận xét) để họ đọc hoặc góp ý, hạn chế tối đa rủi ro bị phá dữ liệu.
+* **(2) Chế độ chia sẻ an toàn:** Thay vì mở link công khai, chỉ chia sẻ trực tiếp qua **Email cụ thể** của đúng người cần làm việc.
+* **(3) Ngăn cộng tác viên tự ý mời thêm người:** Cần tắt tính năng cho phép người chỉnh sửa tự động thay đổi quyền hoặc mời thêm người lạ vào tài liệu.
